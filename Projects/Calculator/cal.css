@@ -1,0 +1,58 @@
+.text-center{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 7px rgba(16, 16, 16, 0.957);
+
+}
+/* .bg-red{
+    background: red;
+
+} */
+.mx-auto{
+ margin: auto;
+}
+
+.flex {
+   display: flex; 
+}
+.flel-col{
+    flex-direction: column;
+}
+
+.items-center{
+   align-items: center; 
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html, body{
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button{
+    background-color: cadetblue;
+    font-weight: bold;
+    text-align: center;
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+   background-color: rgb(220, 236, 236);
+   text-align: center;
+   margin: 0;
+   width: 210px;
+   padding: 10px 38px;
+   border: 2px solid black;
+   border-radius: 5px; 
+}
